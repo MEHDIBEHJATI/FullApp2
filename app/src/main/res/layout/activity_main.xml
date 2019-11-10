@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/shape_main">
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_image">
+
+
+            <ImageView
+
+                android:layout_margin="10dp"
+                android:src="@drawable/play"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:scaleType="centerCrop"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/shape2"/>
+
+        <Button
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/shape2"/>
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:text="@string/camera"
+            android:fontFamily="monospace"
+            android:textSize="20sp"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/shape2"
+            />
+
+
+
+        <Button
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/shape2"
+
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
