@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval">
-   <solid android:color="@color/colorPrimary"/>
-    <corners android:radius="60dp"/>
-    <size android:width="50dp"
-        android:height="50dp" />
-    <padding android:bottom="10dp"/>
-    <gradient
-        android:startColor="#f85b0b"
-        android:endColor="#c6a147"
-        android:angle="45"/>
+<solid android:color="@color/colorPrimary"/>
+<corners android:radius="60dp"/>
+<size android:width="50dp"
+    android:height="50dp" />
+<padding android:bottom="10dp"/>
+<gradient
+    android:startColor="#f85b0b"
+    android:endColor="#c6a147"
+    android:angle="45"/>
 
 </shape>

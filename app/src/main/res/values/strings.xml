@@ -2,4 +2,6 @@
     <string name="app_name">Full App2</string>
     <string name="dialapp">DialAPP</string>
     <string name="camera">Camera</string>
+    <string name="dial">dial</string>
+    <string name="profil">profil</string>
 </resources>
