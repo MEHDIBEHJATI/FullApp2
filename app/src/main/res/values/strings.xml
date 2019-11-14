@@ -22,5 +22,10 @@
     <string name="enter_your_phone_number">Enter your phone number...</string>
     <string name="phone_number">Phone number</string>
     <string name="dial2">Dial</string>
+    <string name="alert_dialog">alert_dialog</string>
+    <string name="derawer">DERAWER</string>
+    <string name="share_p">share_p</string>
+    <string name="test">test</string>
+    <string name="serch">serch</string>
 
 </resources>

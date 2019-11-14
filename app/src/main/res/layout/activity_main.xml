@@ -52,6 +52,8 @@
 
 
         <Button
+            android:textStyle="bold"
+            android:text="@string/derawer"
             android:layout_margin="5dp"
             android:gravity="center"
             android:layout_width="150dp"
@@ -59,6 +61,8 @@
             android:background="@drawable/shape2"/>
 
         <Button
+            android:textStyle="bold"
+            android:text="@string/share_p"
             android:layout_margin="5dp"
             android:gravity="center"
             android:layout_width="150dp"
@@ -78,6 +82,7 @@
 
 
         <Button
+            android:textStyle="bold"
             android:text="@string/camera"
             android:fontFamily="monospace"
             android:textSize="20sp"
@@ -91,6 +96,8 @@
 
 
         <Button
+            android:textStyle="bold"
+            android:text="@string/test"
             android:layout_margin="5dp"
             android:gravity="center"
             android:layout_width="150dp"
@@ -108,7 +115,8 @@
 
 
         <Button
-            android:text="@string/camera"
+            android:textStyle="bold"
+            android:text="@string/serch"
             android:fontFamily="monospace"
             android:textSize="20sp"
             android:layout_margin="5dp"
@@ -121,6 +129,9 @@
 
 
         <Button
+            android:id="@+id/btnAlert"
+            android:textStyle="bold"
+            android:text="@string/alert_dialog"
             android:layout_margin="5dp"
             android:gravity="center"
             android:layout_width="150dp"
